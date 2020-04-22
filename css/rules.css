@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700&display=swap');
+
+
+body{
+width:100%;
+
+background-color: #131419  !important; 
+overflow-x:hidden;
+}
+h1{
+   text-align: center;
+}
+.one{
+    background-color: #1A1B1E !important;
+
+}
+.rules{
+    opacity: 1;
+    animation: try 0.5s ease-in-out 0s;
+}
+@keyframes try{
+    0%{
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+    }
+}
+.one{
+    height:12vh;
+}
+.rules div{
+    height:11.8vh;
+    font-family: 'Poppins',sans-serif ;
+    color:white;
+    padding:20px;
+
+}
+.enclosed {
+    background: linear-gradient(83deg, rgba(133,85,196,1) 0%, rgba(64,10,136,1) 49%, rgba(50,7,107,1) 100%);
+    line-height: 1;
+  
+    padding: 5px;
+    display: inline-block;
+    
+   
+  }
+ .btn-primary{
+    background-color: #32a852 !important;
+    border:none !important;
+
+    font-family:'Poppins',sans-serif ;
+    position: relative;
+    left:45%;
+  }
+
+
+@media screen and (max-width: 768px){
+
+    .btn-primary{
+        left:35%;
+    }
+    
+    .rules div{
+        height:15vh;
+        font-size:13px;
+        color:white;
+        padding:5px;
+        font-family: 'Poppins',sans-serif;
+        
+
+    }
+    .rules h1{
+        font-size:20px;
+    }
+   
+    
+}
+@media screen and (max-width: 350px)
+{
+    .rules div{
+        font-size:10px;
+    }
+}

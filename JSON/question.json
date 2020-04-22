@@ -1,0 +1,45 @@
+[{ 
+    "answer": "itrix",
+    "number":1,
+   "question": ["/asset/itrix.jpg" ]
+},
+{
+    "answer": "thegameisafoot",
+    "number":2,
+    "question": ["/asset/sdfh.png" ]
+},
+{
+    "answer": "animals",
+    "number":3,
+    "question": [ "/asset/uyiub.jpeg","/asset/sfklj.png"]
+},
+{
+    "answer": "bermudatriangle",
+    "number":4,
+    "question": ["/asset/fdsf.png","/asset/sffdfh.jpeg","/asset/hsdf.jpg" ] 
+},
+{
+    "answer": "kobebryant",
+    "number":5,
+    "question": ["/asset/dsfd.jpg", "/asset/iuoy.jpg"]
+},
+{
+    "answer": "annefrank",
+    "number":6,
+    "question": [ "/asset/kjsdlf.jpeg","/asset/qeewre.jpeg"]
+   
+
+},
+{
+    "answer": "cyberpunk2077",
+    "number":7,
+    "question": ["/asset/yiyue.jpg","/asset/poorfh.jpg"],
+    "redirect" : "/finish/"
+},
+{
+    "answer": "nagasanjay",
+    "number":8,
+    "question": [ "/asset/mi1.png","/asset/mi2.png","/asset/mi3.png" ]     
+}
+
+]

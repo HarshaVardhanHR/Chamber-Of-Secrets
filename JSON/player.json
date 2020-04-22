@@ -1,0 +1,31 @@
+[{"team_name":"Kolkata Knight Riders",
+	"team":"kkr",
+	"pla_name":["Dinesh Karthik","Sunil Narine","Shubman Gill","Andre Russell","KuldeepYadav"],
+	"pla_photo":["/asset/kkr1.png","/asset/kkr2.png","/asset/kkr3.png","/asset/kkr4.png","/asset/kkr5.png"],
+	"gif":["/asset/kkr1.gif","/asset/kkr2.gif","/asset/kkr3.gif","/asset/kkr4.gif","/asset/kkr5.gif"]
+}, 
+{	"team_name":"Royal Challengers Bangalore",
+	"team":"rcb",
+	"pla_name":["Virat Kohli","AB de Villiers","Navdeep Saini","Yuzvendra Chahal","Dale Steyn"],
+	"pla_photo":["/asset/virat.png","/asset/abd.png","/asset/saini.png","/asset/chahal.png","/asset/steyn.png"],
+	"gif":["/asset/rcb1.gif","/asset/rcb2.gif","/asset/rcb3.gif","/asset/rcb4.gif","/asset/rcb5.gif"]
+},
+{	"team_name":"Chennai Super Kings",
+	"team":"csk",
+	"pla_name":["M.S.Dhoni","Suresh raina","Ravindra Jadeja","Faf duplesis","Dwayne Bravo"],
+	"pla_photo":["/asset/1.png","/asset/csk2.png","/asset/csk3.png","/asset/csk5.png","/asset/csk4.png"],
+	"gif":["/asset/csk1.gif","/asset/csk2.gif","/asset/csk3.gif","/asset/csk4.gif","/asset/csk5.gif"]
+},
+{	"team_name":"Sunrisers Hyderabad",
+	"team":"srh",
+	"pla_name":["David Warner","Kane Williamson","Rashid khan","Bhuvaneshar kumar","Manish Pandey"],
+	"pla_photo":["/asset/srh2.png","/asset/srh1.png","/asset/srh3.png","/asset/srh4.png","/asset/srh5.png"],
+	"gif":["/asset/srh1.gif","/asset/srh2.gif","/asset/srh3.gif","/asset/srh4.gif","/asset/srh5.gif"]
+},
+{	"team_name":"Mumbai Indians",
+	"team":"mi",
+	"pla_name":["Rohit Sharma","Lasith Malinga","Kieron Pollard","Hardik pandya","Jasprit Bumrah"],
+	"pla_photo":["/asset/mi1.png","/asset/mi2.png","/asset/mi3.png","/asset/mi4.png","/asset/mi5.png"],
+	"gif":["/asset/mi1.gif","/asset/mi2.gif","/asset/mi3.gif","/asset/mi4.gif","/asset/mi5.gif"]
+}
+]

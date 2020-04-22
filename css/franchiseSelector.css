@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700&display=swap');
+
+.teams{
+    top:5vh;
+}
+body{
+    width: 100%;
+    height:100%;
+    background:#1A1B1E ;
+}
+.team{
+    animation: try 0.5s ease-in-out 0s;
+}
+@keyframes try{
+    0%{
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+    }
+}
+
+.csk{
+height: 20vh;
+
+padding:2vh;
+background:linear-gradient(90deg, rgba(255,181,0,1) 0%, rgba(246,233,9,1) 100%);
+border-radius:10px;
+font-family:'Poppins',sans-serif;
+
+color:black;
+cursor:pointer !important;
+
+
+
+}
+
+.heading{
+    top:5vh;
+    position: relative;
+}
+.heading h1{
+    font-family:'Poppins',sans-serif;
+    color:white;
+    text-align: center;
+}
+.csk .details{
+    position: absolute;
+    bottom:0;
+}
+.csk  h1{
+    font-size:30px;
+}
+.csk .imgcontainer{
+    position: absolute;
+    z-index: 3;
+    right:-10px;
+    top:-10px;
+    padding:1vh;
+    background:#DEEAF6 ;
+    border-radius:15px;
+}
+.csk:hover, .kkr:hover , .srh:hover , .mi:hover , .rcb:hover{
+    transform:scale(1.03);
+    animation:bigger 0.2s ease-in-out;
+}
+@keyframes bigger{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.03);
+    }
+}
+/* Team RCB */
+.rcb{
+    height: 20vh;
+    padding:2vh;
+    background:linear-gradient(83deg, rgb(192, 26, 26) 0%, rgba(210,3,35,1) 28%, rgba(255,0,0,1) 100%);
+    border-radius:10px;
+    font-family:'Poppins',sans-serif;
+  margin-left:1vw;
+  color:white;
+  cursor:pointer !important;
+
+
+    
+    
+    
+    }
+    .rcb .details{
+        position: absolute;
+        bottom:0;
+    }
+    .rcb h1{
+        font-size:30px;
+    }
+    .rcb .imgcontainer{
+        position: absolute;
+        z-index: 3;
+        right:-10px;
+        top:-10px;
+        padding:1vh;
+        background:#DEEAF6 ;
+        border-radius:15px;
+    }
+
+.kkr{
+    height: 20vh;
+    padding:2vh;
+    background:linear-gradient(83deg, rgba(133,85,196,1) 0%, rgba(64,10,136,1) 49%, rgba(50,7,107,1) 100%);
+    border-radius:10px;
+    font-family:'Poppins',sans-serif;
+color:white;
+margin-right: 1vw;
+cursor:pointer !important;
+
+
+
+    
+    
+    
+    }
+    .kkr .details{
+        position: absolute;
+        bottom:0;
+    }
+    .kkr h1{
+        font-size:30px;
+    }
+    .kkr .imgcontainer{
+        position: absolute;
+        z-index: 3;
+        right:-10px;
+        top:-10px;
+        padding:1vh;
+        background:#DEEAF6 ;
+        border-radius:15px;
+    }
+    .row{
+        margin-top:3vh;
+    }
+
+
+
+    /*srh team*/
+
+.srh{
+    height: 20vh;
+    padding:2vh;
+    background:linear-gradient(83deg, rgba(255,89,0,1) 26%, rgba(255,103,0,1) 100%);
+    border-radius:10px;
+    font-family:'Poppins',sans-serif;
+    margin-right:1vw;
+    color:white;
+    cursor:pointer !important;
+
+
+
+    
+    
+    
+    }
+    .srh .details{
+        position: absolute;
+        bottom:0;
+    }
+    .srh h1{
+        font-size:30px;
+    }
+    .srh .imgcontainer{
+        position: absolute;
+        z-index: 3;
+        right:-10px;
+        top:-10px;
+        padding:1vh;
+        background:#DEEAF6 ;
+        border-radius:15px;
+    }
+    /*mi team*/
+    .mi{
+        height: 20vh;
+        padding:2vh;
+        background:linear-gradient(90deg, rgba(11,56,133,1) 0%, rgba(16,73,172,1) 100%);
+        border-radius:10px;
+        font-family:'Poppins',sans-serif;
+        margin-left:1vw;
+        color:white;
+        cursor:pointer !important;
+
+    
+        
+        
+        
+        }
+        .mi .details{
+            position: absolute;
+            bottom:0;
+        }
+        .mi h1{
+            font-size:30px;
+        }
+        .mi .imgcontainer{
+            position: absolute;
+            z-index: 3;
+            right:-10px;
+            top:-10px;
+            padding:1vh;
+            background:#DEEAF6 ;
+            border-radius:15px;
+        }
+        .imgcontainer img{
+            width:40px;
+            height: 40px;
+        }
+        
+    
+        @media screen and (min-width: 700px) {
+        .details h5{
+            font-size:12px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+
+     .kkr,.srh{
+         margin-right:3vw;
+         
+     }
+     .rcb, .mi{
+         margin-left:3vw;
+     }
+     .details h5{
+         font-size:15px;
+
+     }
+     .heading h1{
+        font-family:'Poppins',sans-serif;
+        color:white;
+        font-size:30px;
+    }
+    .csk h1,.rcb h1,.mi h1, .srh h1, .kkr h1{
+        font-size:25px;
+    }
+    P{
+        font-size:13px;
+    }
+    .imgcontainer img{
+        width:30px;
+        height: 30px;
+    }
+  
+
+    }
+
+    /*murugan css*/
+    .playercontainer{
+        font-family:'Poppins',sans-serif;
+        
+    }
+    
+ .header{
+        text-transform: uppercase;
+        color:black;
+        margin:0 auto;
+    }
+.playercontainer .container{
+    background-color:#DEEAF6 ;
+    }
+    #boxid,#boxid1, #boxid2, #boxid3 ,#boxid4{
+        position:relative;
+     top:1px;
+    }
+    
+    
+    .playercontainer .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      float:left;
+      padding:30px;
+      opacity:1;
+      animation:lol 1s ease;
+    }
+    @keyframes lol{
+        0%{
+            opacity:0;
+        }
+        100%{
+            opacity:1;
+        }
+    }
+    
+    .playercontainer .title {
+      color: grey;
+      font-size: 15px;
+    }
+    .playercontainer .header h1{
+    color:black !important;
+      white-space: nowrap;
+    
+    }
+    .playercontainer div {
+        border-style:solid;
+        border-width:4px;  
+        border-color:transparent;
+    }
+    /* <!-- card end -->
+    <!-- for checkbox --> */
+    @media screen and (max-width:800px)
+    {
+        .playercontainer .header h1{
+            font-size:23px !important;
+        }
+    }
+    
+    @keyframes click-wave {
+      0% {
+        height:20px;
+        width: 20px;
+        opacity: 0.35;
+        position: relative;
+      }
+      100% {
+        height: 200px;
+        width: 200px;
+        margin-left: -80px;
+        margin-top: -80px;
+        opacity: 0;
+      }
+    }
+    
+    .playercontainer .option-input {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+      position: relative;
+      top: 13.33333px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      transition: all 0.15s ease-out 0s;
+      background: #cbd1d8;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      margin-right: 0.5rem;
+      outline: none;
+      position: relative;
+      z-index: 1000;
+    }
+    .playercontainer .option-input:hover {
+      background: #9faab7;
+    }
+    .playercontainer .option-input:checked {
+      background: #40e0d0;
+    }
+    .playercontainer .option-input:checked::before {
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      content: '\2713';
+      display: inline-block;
+      font-size: 20.66667px;
+      text-align: center;
+      line-height: 20px;
+    }
+    .playercontainer .option-input:checked::after {
+      -webkit-animation: click-wave 0.65s;
+      -moz-animation: click-wave 0.65s;
+      animation: click-wave 0.65s;
+      background: #40e0d0;
+      content: '';
+      display: block;
+      position: relative;
+      z-index: 100;
+    }
+    
+    .playercontainer h5{
+    font-size:20px;
+      white-space: nowrap;
+    }
+    /* 
+    <!--end-->
+    <!--button--> */
+    .playercontainer .button {
+      width: 170px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+      color: #000;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-left: 30px;
+      margin-bottom: 30px;
+      cursor: pointer;
+      display: inline-block;
+    }
+    
+    .playercontainer .button-1 {
+      background-color: transparent;
+      border: 3px solid #00d7c3;
+      border-radius: 50px;
+      -webkit-transition: all .15s ease-in-out;
+      transition: all .15s ease-in-out;
+      color: #00d7c3;
+    }
+    .playercontainer .button-1:hover {
+      box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+      border: 3px solid #00d7c3;
+    }
+    
+    
+    /* <!--buttonend--> */
+    
+    
+    @media only screen and (min-width: 600px) {
+      .col-s-1 {width: 8.33%;}
+      .col-s-2 {width: 16.66%;}
+      .col-s-3 {width: 25%;}
+      .col-s-4 {width: 33.33%;}
+      .col-s-5 {width: 41.66%;}
+      .col-s-6 {width: 50%;}
+      .col-s-7 {width: 58.33%;}
+      .col-s-8 {width: 66.66%;}
+      .col-s-9 {width: 75%;}
+      .col-s-10 {width: 83.33%;}
+      .col-s-11 {width: 91.66%;}
+      .col-s-12 {width: 100%;}
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+    }
+    .playercontainer h2{
+         word-wrap: break-word;
+         -webkit-hyphens: auto;
+         -moz-hyphens: auto;
+         -ms-hyphens: auto;
+         -o-hyphens: auto;
+         hyphens: auto;
+    }
